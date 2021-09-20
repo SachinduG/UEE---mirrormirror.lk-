@@ -11,9 +11,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mirror">
         <activity
+            android:name=".BankTransfer"
+            android:exported="true" />
+        <activity
+            android:name=".PaymentMenu"
+            android:exported="true"
+            android:parentActivityName=".Review" />
+        <activity
             android:name=".Review"
             android:exported="true"
-            android:parentActivityName=".Addresses"/>
+            android:parentActivityName=".Addresses" />
         <activity
             android:name=".UpdateAddress"
             android:exported="true" />

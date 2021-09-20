@@ -11,10 +11,6 @@ import java.util.Objects;
 
 public class Addresses extends AppCompatActivity {
 
-    private ImageButton edit1, edit2;
-    private FloatingActionButton add;
-    private CardView cd1, cd2;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,11 +18,11 @@ public class Addresses extends AppCompatActivity {
         setTitle("Shipping Address(s)");
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
 
-        add = findViewById(R.id.btn_add_address);
-        edit1 = findViewById(R.id.btn_edit1);
-        edit2 = findViewById(R.id.btn_edit2);
-        cd1 = findViewById(R.id.cd_Address1);
-        cd2 = findViewById(R.id.cd_Address2);
+        FloatingActionButton add = findViewById(R.id.btn_add_address);
+        ImageButton edit1 = findViewById(R.id.btn_edit1);
+        ImageButton edit2 = findViewById(R.id.btn_edit2);
+        CardView cd1 = findViewById(R.id.cd_Address1);
+        CardView cd2 = findViewById(R.id.cd_Address2);
 
         add.setOnClickListener(view -> {
             Intent send = new Intent(Addresses.this, MainActivity.class);

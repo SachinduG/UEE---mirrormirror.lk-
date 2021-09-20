@@ -31,4 +31,13 @@
     <string name="product_total">Rs 2200</string>
     <string name="fee">Rs 200</string>
     <string name="proceed_to_payment">Proceed To Payment</string>
+    <string name="payment">payment</string>
+    <string name="text1">Please Select The Preferred payment</string>
+    <string name="text2">Method To Use On This Order.</string>
+    <string name="bank_transfer">Bank Transfer</string>
+    <string name="card_payment">Card Payment</string>
+    <string name="read">I have read and agree to the</string>
+    <string name="terms">Terms &amp;</string>
+    <string name="conditions">Conditions</string>
+    <string name="cont">Continue</string>
 </resources>
