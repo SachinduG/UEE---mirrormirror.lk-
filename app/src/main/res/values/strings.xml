@@ -26,7 +26,7 @@
     <string name="product_quantity">1</string>
     <string name="product_price">Rs 2000</string>
     <string name="subtotal">Subtotal</string>
-    <string name="shipping_fee">Shipping fee</string>
+    <string name="shipping_fee">Shipping Fee</string>
     <string name="total">Total</string>
     <string name="product_total">Rs 2200</string>
     <string name="fee">Rs 200</string>
@@ -40,4 +40,8 @@
     <string name="terms">Terms &amp;</string>
     <string name="conditions">Conditions</string>
     <string name="cont">Continue</string>
+    <string name="confirm_order">Confirm Order</string>
+    <string name="credit_fee">Credit Card Processing Fees</string>
+    <string name="cc_fee">Rs 44</string>
+    <string name="tot_amount">Rs 2244</string>
 </resources>

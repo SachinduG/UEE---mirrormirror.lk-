@@ -6,13 +6,13 @@ import android.os.Bundle;
 
 import java.util.Objects;
 
-public class BankTransfer extends AppCompatActivity {
+public class CardPayment extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bank_transfer);
-        setTitle("Bank Transfer");
+        setContentView(R.layout.activity_card_payment);
+        setTitle("Card Payment");
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
     }
 }

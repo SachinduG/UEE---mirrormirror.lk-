@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.RadioButton;
-import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import java.util.Objects;
@@ -22,7 +21,6 @@ public class PaymentMenu extends AppCompatActivity {
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
 
         CheckBox terms = findViewById(R.id.checkBox);
-        RadioGroup radioGroup = findViewById(R.id.radioGroup);
         RadioButton rButton1 = findViewById(R.id.radioButton1);
         RadioButton rButton2 = findViewById(R.id.radioButton2);
         Button con = findViewById(R.id.btn_continue);
@@ -30,10 +28,10 @@ public class PaymentMenu extends AppCompatActivity {
         con.setOnClickListener(view -> {
             if(terms.isChecked()) {
                 if (rButton1.isChecked()) {
-                    Intent intent = new Intent(PaymentMenu.this, UpdateAddress.class);
+                    Intent intent = new Intent(PaymentMenu.this, BankTransfer.class);
                     startActivity(intent);
                 } else if (rButton2.isChecked()) {
-                    Intent intent = new Intent(PaymentMenu.this, MainActivity.class);
+                    Intent intent = new Intent(PaymentMenu.this, CardPayment.class);
                     startActivity(intent);
                 }
             }else{

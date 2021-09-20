@@ -11,8 +11,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mirror">
         <activity
+            android:name=".CardPayment"
+            android:exported="true"
+            android:parentActivityName=".PaymentMenu"/>
+        <activity
             android:name=".BankTransfer"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".PaymentMenu" />
         <activity
             android:name=".PaymentMenu"
             android:exported="true"
