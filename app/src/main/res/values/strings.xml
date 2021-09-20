@@ -44,4 +44,12 @@
     <string name="credit_fee">Credit Card Processing Fees</string>
     <string name="cc_fee">Rs 44</string>
     <string name="tot_amount">Rs 2244</string>
+    <string name="bti">Bank Transfer Instructions</string>
+    <string name="sbt">Please transfer the total amount to the following bank account.</string>
+    <string name="Account_Name">Account Holder Name: MIRROR</string>
+    <string name="acc">MIRROR.LK PVT Ltd</string>
+    <string name="account_number">Account No: 8000076087</string>
+    <string name="bank">BankName: Commercial Bank</string>
+    <string name="branch">Branch: Nugegoda</string>
+    <string name="bsubt">Our Bank details are follows:</string>
 </resources>
