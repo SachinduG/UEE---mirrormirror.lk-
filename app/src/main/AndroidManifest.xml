@@ -11,9 +11,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mirror">
         <activity
+            android:name=".WomenItemList"
+            android:exported="true" />
+        <activity
+            android:name=".Store"
+            android:exported="true" />
+        <activity
+            android:name=".SignUp"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
             android:name=".CardPayment"
             android:exported="true"
-            android:parentActivityName=".PaymentMenu"/>
+            android:parentActivityName=".PaymentMenu" />
         <activity
             android:name=".BankTransfer"
             android:exported="true"
@@ -33,7 +45,7 @@
             android:name=".Addresses"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
