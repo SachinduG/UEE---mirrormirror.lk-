@@ -84,4 +84,10 @@
     <string name="tren2pic">tren2pic</string>
     <string name="livepic">livepic</string>
     <string name="womenpic">womenpic</string>
+    <string name="back">back</string>
+    <string name="profilelogo">profilelogo</string>
+    <string name="stevan_smithhead">Stevan Smith</string>
+    <string name="stevan_smith">Stevan Smith</string>
+    <string name="smith_mail_com">smith@mail.com</string>
+    <string name="update">Update</string>
 </resources>

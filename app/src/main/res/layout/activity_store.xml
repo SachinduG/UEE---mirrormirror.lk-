@@ -51,7 +51,7 @@
             android:contentDescription="@string/menu" />
 
         <ImageView
-            android:id="@+id/imageView7"
+            android:id="@+id/imageprofile"
             android:layout_width="51dp"
             android:layout_height="68dp"
             android:layout_marginStart="306dp"
