@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class UpdateAddress extends AppCompatActivity {
 
@@ -24,6 +25,7 @@ public class UpdateAddress extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_update_address);
         setTitle("Update Address");
+        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
 
         Spinner spinner = findViewById(R.id.spArea);
         List<String> disticts = new ArrayList<>();

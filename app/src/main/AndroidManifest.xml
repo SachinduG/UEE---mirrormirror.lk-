@@ -31,7 +31,8 @@
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".Addresses"/>
         <activity
             android:name=".CardPayment"
             android:exported="true"
@@ -50,7 +51,8 @@
             android:parentActivityName=".Addresses" />
         <activity
             android:name=".UpdateAddress"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".Review"/>
         <activity
             android:name=".Addresses"
             android:exported="true" />
