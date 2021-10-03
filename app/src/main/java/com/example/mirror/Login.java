@@ -12,7 +12,7 @@ import android.widget.Toast;
 public class Login extends AppCompatActivity {
 
     private EditText email, password;
-    private TextView signup;
+    private TextView signup, forgotpassword;
 
 
     @Override
@@ -25,6 +25,7 @@ public class Login extends AppCompatActivity {
         password = findViewById((R.id.etPassword));
         Button login = findViewById(R.id.btn_login);
         signup = findViewById(R.id.signup);
+        forgotpassword = findViewById(R.id.textView10);
 
         login.setOnClickListener(view -> {
             String Email = email.getText().toString().trim();
@@ -43,6 +44,11 @@ public class Login extends AppCompatActivity {
 
         signup.setOnClickListener(view -> {
             Intent send = new Intent(Login.this, SignUp.class);
+            startActivity(send);
+        });
+
+        forgotpassword.setOnClickListener(view -> {
+            Intent send = new Intent(Login.this, ForgotPassword.class);
             startActivity(send);
         });
 
