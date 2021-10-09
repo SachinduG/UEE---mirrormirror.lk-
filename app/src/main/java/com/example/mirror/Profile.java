@@ -32,7 +32,7 @@ public class Profile extends AppCompatActivity {
         });
 
         back.setOnClickListener(view -> {
-            Intent send = new Intent(Profile.this, Store.class);
+            Intent send = new Intent(Profile.this, ProfileOptions.class);
             startActivity(send);
         });
 

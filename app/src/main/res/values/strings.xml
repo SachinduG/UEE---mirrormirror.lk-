@@ -121,4 +121,12 @@
     <string name="q1_answer">&#0160;Yes, We deliver Island wide with our corporate trusted courier services. So, no worries we always take care of your every order, We pack it safely will arrive to your home safely.</string>
     <string name="feedback_question2">&#0160;Which products can be returned?</string>
     <string name="feedback_question3">&#0160;Do you offer any discounts?</string>
+    <string name="profile_options">Profile Options</string>
+    <string name="_12">12</string>
+    <string name="_03">03</string>
+    <string name="loyalty_points_120">Loyalty Points : 120</string>
+    <string name="orders">Orders</string>
+    <string name="pending">Pending</string>
+    <string name="pendingcount">pendingcount</string>
+    <string name="totalcount">totalcount</string>
 </resources>
