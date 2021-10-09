@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mirror">
         <activity
+            android:name=".ProfileOptions"
+            android:exported="true" />
+        <activity
             android:name=".Feedback"
             android:exported="true" />
         <activity
@@ -74,7 +77,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>

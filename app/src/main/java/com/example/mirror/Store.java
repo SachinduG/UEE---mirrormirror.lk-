@@ -18,7 +18,7 @@ public class Store extends AppCompatActivity {
         profile = findViewById(R.id.imageprofile);
 
         profile.setOnClickListener(view -> {
-            Intent send = new Intent(Store.this, Profile.class);
+            Intent send = new Intent(Store.this, ProfileOptions.class);
             startActivity(send);
         });
 
