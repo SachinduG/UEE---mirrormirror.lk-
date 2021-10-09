@@ -107,4 +107,7 @@
     <string name="enter_email_address_associated_with_your_account_click_the_submit_to_have_your_password_e_mailed_to_you">Enter email address associated with your account. Click the submit to have your password e-mailed to you.</string>
     <string name="submit">Submit</string>
     <string name="move_to_log_in">Move To Log In</string>
+    <string name="wish_list">Wish List</string>
+    <string name="app_name_title">MirrorMirror.LK</string>
+    <string name="feed_back">FeedBack</string>
 </resources>
