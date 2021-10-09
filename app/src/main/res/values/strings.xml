@@ -110,4 +110,15 @@
     <string name="wish_list">Wish List</string>
     <string name="app_name_title">MirrorMirror.LK</string>
     <string name="feed_back">FeedBack</string>
+    <string name="questions"> Frequently Asked Questions</string>
+    <string name="contact_us_title"> Contact Us For Any Questions</string>
+    <string name="submit_feedback">Submit</string>
+    <string name="feedback_name">&#032;&#032;Your Name</string>
+    <string name="feedback_email">&#032;&#032;Your Email</string>
+    <string name="feedback_contactno">&#032;&#032;Your Contact Number</string>
+    <string name="feedback_msg">&#032;&#032;Your Message</string>
+    <string name="feedback_question1">&#0160;Will you delivery Islandwide?</string>
+    <string name="q1_answer">&#0160;Yes, We deliver Island wide with our corporate trusted courier services. So, no worries we always take care of your every order, We pack it safely will arrive to your home safely.</string>
+    <string name="feedback_question2">&#0160;Which products can be returned?</string>
+    <string name="feedback_question3">&#0160;Do you offer any discounts?</string>
 </resources>
