@@ -12,7 +12,7 @@ import android.widget.PopupMenu;
 import android.widget.Toast;
 
 public class WomenItemList extends AppCompatActivity implements PopupMenu.OnMenuItemClickListener{
-    ImageView st,ct,pt;
+    ImageView st,ct,pt,vi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +23,7 @@ public class WomenItemList extends AppCompatActivity implements PopupMenu.OnMenu
         st = findViewById(R.id.imageView6);
         ct = findViewById(R.id.imageView8);
         pt = findViewById(R.id.imageView16);
+        
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
