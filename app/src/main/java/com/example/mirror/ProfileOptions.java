@@ -64,7 +64,8 @@ public class ProfileOptions extends AppCompatActivity implements PopupMenu.OnMen
                 startActivity(send2);
                 return true;
             case R.id.print_item:
-                // do your code
+                Intent send3 = new Intent(ProfileOptions.this, Login.class);
+                startActivity(send3);
                 return true;
 
             default:
