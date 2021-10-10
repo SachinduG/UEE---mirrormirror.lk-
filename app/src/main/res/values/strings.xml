@@ -121,6 +121,7 @@
     <string name="q1_answer">&#0160;Yes, We deliver Island wide with our corporate trusted courier services. So, no worries we always take care of your every order, We pack it safely will arrive to your home safely.</string>
     <string name="feedback_question2">&#0160;Which products can be returned?</string>
     <string name="feedback_question3">&#0160;Do you offer any discounts?</string>
+<<<<<<< HEAD
     <string name="my_cart">My Cart</string>
     <string name="ww03_women_bag_1_800rs">ww03 Women Bag 1,800Rs</string>
     <string name="ww04_women_top_1_800rs">ww04 Women Top 1,800Rs</string>
@@ -132,4 +133,18 @@
     <string name="todo">TODO</string>
     <string name="mm001_men_shirt_1_200rs">MM001 Men Shirt 1,200Rs</string>
     <string name="todo">TODO</string>
+=======
+    <string name="wishlist_cardview_title1">&#032;&#032;WW088-Sports Shoes \n&#032;&#032;Quantity 1</string>
+    <string name="wishlist_cardview_price1">&#032;&#032;Rs 1,500.00</string>
+    <string name="wishlist_cardview_title2">&#032;&#032;WW065-Women Bag \n&#032;&#032;Quantity 1</string>
+    <string name="wishlist_cardview_price12">&#032;&#032;Rs 2,400.00</string>
+    <string name="profile_options">Profile Options</string>
+    <string name="_12">12</string>
+    <string name="_03">03</string>
+    <string name="loyalty_points_120">Loyalty Points : 120</string>
+    <string name="orders">Orders</string>
+    <string name="pending">Pending</string>
+    <string name="pendingcount">pendingcount</string>
+    <string name="totalcount">totalcount</string>
+>>>>>>> 25fc54dec1c50a713490b8cffc1486cece50505e
 </resources>
