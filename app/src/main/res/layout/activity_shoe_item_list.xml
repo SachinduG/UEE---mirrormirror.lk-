@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WomenItemList">
+    tools:context=".ShoeItemListActivity">
 
     <TextView
         android:id="@+id/textView18"
         android:layout_width="161dp"
         android:layout_height="43dp"
-        android:text="ww01 Women Top  1,200Rs"
+        android:text="SS01 Women Shoe  1,200Rs"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,7 +24,7 @@
         android:id="@+id/textView20"
         android:layout_width="161dp"
         android:layout_height="43dp"
-        android:text="ww03 Women Bag  1,800Rs"
+        android:text="SS03 Men Shoes  1,800Rs"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -38,7 +38,7 @@
         android:id="@+id/textView21"
         android:layout_width="161dp"
         android:layout_height="43dp"
-        android:text="ww04 Women Top  1,800Rs"
+        android:text="SS04 Men Nike Shoes 1,800Rs"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -52,7 +52,7 @@
         android:id="@+id/textView19"
         android:layout_width="161dp"
         android:layout_height="43dp"
-        android:text="ww02 Women Top  1,200Rs"
+        android:text="SS02 Women Shoes Pink  1,200Rs"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -61,7 +61,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.677" />
-
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView2"
         android:layout_width="407dp"
@@ -134,7 +133,6 @@
             android:src="@drawable/ic_wishlist_filled" />
 
     </androidx.cardview.widget.CardView>
-
     <SearchView
         android:id="@+id/searchView"
         android:layout_width="305dp"
@@ -155,10 +153,10 @@
         android:text="Sort"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintHorizontal_bias="0.107"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.349"
+        app:layout_constraintVertical_bias="0.348"
         tools:ignore="TextContrastCheck" />
 
     <Button
@@ -176,49 +174,49 @@
 
     <ImageView
         android:id="@+id/imageView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:layout_height="146dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintHorizontal_bias="0.119"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.521"
-        app:srcCompat="@drawable/women1" />
+        app:layout_constraintVertical_bias="0.523"
+        app:srcCompat="@drawable/sh1" />
 
     <ImageView
         android:id="@+id/imageView17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="165dp"
+        android:layout_height="143dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.905"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.521"
-        app:srcCompat="@drawable/women2" />
+        app:srcCompat="@drawable/ss3" />
 
     <ImageView
         android:id="@+id/imageView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="155dp"
+        android:layout_height="167dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.114"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.887"
-        app:srcCompat="@drawable/women3" />
+        app:srcCompat="@drawable/ss4" />
 
     <ImageView
         android:id="@+id/imageView19"
-        android:layout_width="157dp"
-        android:layout_height="133dp"
+        android:layout_width="163dp"
+        android:layout_height="144dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.889"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.887"
-        app:srcCompat="@drawable/women" />
+        app:srcCompat="@drawable/ss6" />
 </androidx.constraintlayout.widget.ConstraintLayout>
