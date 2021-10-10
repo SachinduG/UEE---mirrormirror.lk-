@@ -11,18 +11,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mirror">
         <activity
-<<<<<<< HEAD
+
             android:name=".ItemViewShoesActivity"
             android:exported="true" />
         <activity
             android:name=".ItemViewDressActivity"
-=======
-
+            android:exported="true" />
+        <activity
             android:name=".Cart"
             android:exported="true" />
         <activity
             android:name=".ProfileOptions"
->>>>>>> 5755884f9e7e6cf4a5c3d0f168a0a4539bc13da9
             android:exported="true" />
         <activity
             android:name=".HomeItemListActivity"
@@ -33,7 +32,7 @@
         <activity
             android:name=".MenItemListActivity"
             android:exported="true" />
-        <activity android:name=".Cart" />
+
         <activity
             android:name=".Feedback"
             android:exported="true" />
@@ -43,11 +42,7 @@
         <activity
             android:name=".Wishlist"
             android:exported="true" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
         </activity>
 
         <activity
@@ -99,6 +94,11 @@
         <activity
             android:name=".Login"
             android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
         </activity>
     </application>
