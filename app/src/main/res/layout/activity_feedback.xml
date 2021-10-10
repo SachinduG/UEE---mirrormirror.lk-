@@ -220,7 +220,8 @@
                 android:layout_height="50dp"
                 android:layout_marginLeft="330dp"
                 android:backgroundTint="?android:attr/colorBackground"
-                app:srcCompat="@drawable/ic_dropdown_arrow" />
+                app:srcCompat="@drawable/ic_dropdown_arrow"
+                tools:ignore="SpeakableTextPresentCheck" />
 
         </androidx.cardview.widget.CardView>
 
@@ -247,7 +248,8 @@
                 android:layout_height="50dp"
                 android:layout_marginLeft="330dp"
                 android:backgroundTint="?android:attr/colorBackground"
-                app:srcCompat="@drawable/ic_dropdown_arrow" />
+                app:srcCompat="@drawable/ic_dropdown_arrow"
+                tools:ignore="SpeakableTextPresentCheck" />
 
         </androidx.cardview.widget.CardView>
 
