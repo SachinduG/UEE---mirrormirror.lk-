@@ -23,5 +23,15 @@ public class Feedback extends AppCompatActivity {
 
             }
         });
+
+        final ImageView backProfile = (ImageView) findViewById(R.id.imageView21);
+        backProfile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), ProfileOptions.class);
+                startActivity(i);
+
+            }
+        });
     }
 }

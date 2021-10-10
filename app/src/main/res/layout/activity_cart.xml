@@ -85,14 +85,12 @@
 
         <TextView
             android:id="@+id/textView22"
-
             android:layout_width="wrap_content"
             android:layout_height="43dp"
             android:layout_marginStart="140dp"
             android:layout_marginTop="86dp"
             android:text="@string/my_cart"
             android:textColor="#FFFFFF"
-            android:layout_width="150dp"
             android:textSize="34sp"
             android:textStyle="bold" />
 
