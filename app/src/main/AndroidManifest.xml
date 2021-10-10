@@ -11,16 +11,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mirror">
         <activity
-
+            android:name=".HomeItemListActivity"
+            android:exported="true" />
+        <activity
             android:name=".ShoeItemListActivity"
             android:exported="true" />
         <activity
             android:name=".MenItemListActivity"
             android:exported="true" />
-        <activity
-            android:name=".Cart"
-
-            />
+        <activity android:name=".Cart" />
         <activity
             android:name=".Feedback"
             android:exported="true" />
