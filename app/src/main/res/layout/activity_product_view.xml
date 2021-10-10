@@ -7,7 +7,7 @@
     tools:context=".ProductViewActivity">
 
     <Button
-        android:id="@+id/btn_shopping"
+        android:id="@+id/btn_wish"
         android:layout_width="313dp"
         android:layout_height="59dp"
         android:layout_marginTop="68dp"
@@ -23,12 +23,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.53"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etPassword"
         app:layout_constraintVertical_bias="0.701"
         tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck" />
 
     <Button
-        android:id="@+id/btn_checkout"
+        android:id="@+id/btn_crt"
         android:layout_width="313dp"
         android:layout_height="59dp"
         android:layout_marginTop="68dp"
