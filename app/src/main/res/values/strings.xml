@@ -129,4 +129,6 @@
     <string name="pending">Pending</string>
     <string name="pendingcount">pendingcount</string>
     <string name="totalcount">totalcount</string>
+    <string name="my_cart">My Cart</string>
+    <string name="wish">wish</string>
 </resources>
