@@ -12,14 +12,15 @@ import android.widget.PopupMenu;
 import android.widget.Toast;
 
 public class MenItemListActivity extends AppCompatActivity implements PopupMenu.OnMenuItemClickListener {
-    //ImageView st;
+    ImageView st,ct;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_men_item_list);
-        Button btn = (Button) findViewById(R.id.btnShow2);
-        Button btn2 =(Button) findViewById(R.id.button) ;
-        //st = findViewById(R.id.imageView6);
+        Button btn = (Button) findViewById(R.id.button2);
+        Button btn2 = (Button) findViewById(R.id.button);
+        st = findViewById(R.id.imageView6);
+        ct = findViewById(R.id.imageView8);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,11 +42,15 @@ public class MenItemListActivity extends AppCompatActivity implements PopupMenu.
             }
         });
 
-       // st.setOnClickListener(view -> {
-           // Intent send = new Intent(MenItemListActivity.this, Store.class);
-           // startActivity(send);
-       // });
+        st.setOnClickListener(view -> {
+            Intent send = new Intent(MenItemListActivity.this, Store.class);
+            startActivity(send);
+        });
 
+        ct.setOnClickListener(view -> {
+            Intent send = new Intent(MenItemListActivity.this, Cart.class);
+            startActivity(send);
+        });
     }
 
     @Override
@@ -81,7 +86,6 @@ public class MenItemListActivity extends AppCompatActivity implements PopupMenu.
             default:
                 return false;
         }
-
-
     }
 }
+

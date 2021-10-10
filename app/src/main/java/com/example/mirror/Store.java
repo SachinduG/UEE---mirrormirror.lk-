@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.widget.ImageView;
 
 public class Store extends AppCompatActivity {
-    private ImageView women, profile,men,shoes,homeliving;
+    private ImageView women, profile,men,shoes,homeliving,ct;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +19,7 @@ public class Store extends AppCompatActivity {
         men = findViewById(R.id.imageView13);
         shoes = findViewById(R.id.imageView14);
         homeliving = findViewById(R.id.imageView15);
+        ct = findViewById(R.id.imageView8);
 
         profile.setOnClickListener(view -> {
             Intent send = new Intent(Store.this, ProfileOptions.class);
@@ -40,6 +41,10 @@ public class Store extends AppCompatActivity {
         });
         homeliving.setOnClickListener(view -> {
             Intent send = new Intent(Store.this, HomeItemListActivity.class);
+            startActivity(send);
+        });
+        ct.setOnClickListener(view -> {
+            Intent send = new Intent(Store.this, Cart.class);
             startActivity(send);
         });
     }

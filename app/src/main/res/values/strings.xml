@@ -121,7 +121,12 @@
     <string name="q1_answer">&#0160;Yes, We deliver Island wide with our corporate trusted courier services. So, no worries we always take care of your every order, We pack it safely will arrive to your home safely.</string>
     <string name="feedback_question2">&#0160;Which products can be returned?</string>
     <string name="feedback_question3">&#0160;Do you offer any discounts?</string>
+
+
+
+
     <string name="my_cart">My Cart</string>
+
     <string name="ww03_women_bag_1_800rs">ww03 Women Bag 1,800Rs</string>
     <string name="ww04_women_top_1_800rs">ww04 Women Top 1,800Rs</string>
     <string name="ww02_women_top_1_200rs">ww02 Women Top 1,200Rs</string>
@@ -149,8 +154,13 @@
     <string name="rs_1200_00">Rs 1200.00</string>
     <string name="continue_checkout">Continue Checkout</string>
     <string name="continue_shopping">Continue Shopping</string>
-    <string name="bin">bin</string>
+
     <string name="cartimg">cartimg</string>
+
+
+    <string name="bin">bin</string>
+
     <string name="cartadd">cartadd</string>
+
     <string name="cartitem2">cartitem2</string>
 </resources>

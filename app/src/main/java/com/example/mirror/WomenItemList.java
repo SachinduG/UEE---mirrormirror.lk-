@@ -12,7 +12,7 @@ import android.widget.PopupMenu;
 import android.widget.Toast;
 
 public class WomenItemList extends AppCompatActivity implements PopupMenu.OnMenuItemClickListener{
-    ImageView st;
+    ImageView st,ct;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +20,8 @@ public class WomenItemList extends AppCompatActivity implements PopupMenu.OnMenu
         setContentView(R.layout.activity_women_item_list);
         Button btn = (Button) findViewById(R.id.btnShow2);
         Button btn2 =(Button) findViewById(R.id.button) ;
-        st = findViewById(R.id.imageWishlistFilled);
+        st = findViewById(R.id.imageView6);
+        ct = findViewById(R.id.imageView8);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,11 +44,17 @@ public class WomenItemList extends AppCompatActivity implements PopupMenu.OnMenu
         });
 
         st.setOnClickListener(view -> {
-            Intent send = new Intent(WomenItemList.this, Wishlist.class);
+            Intent send = new Intent(WomenItemList.this, Store.class);
             startActivity(send);
         });
 
-}
+        ct.setOnClickListener(view -> {
+            Intent send = new Intent(WomenItemList.this, Cart.class);
+            startActivity(send);
+        });
+
+
+    }
 
     @Override
     public boolean onMenuItemClick(MenuItem item) {
