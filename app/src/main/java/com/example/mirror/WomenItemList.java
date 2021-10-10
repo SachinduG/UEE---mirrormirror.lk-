@@ -20,7 +20,7 @@ public class WomenItemList extends AppCompatActivity implements PopupMenu.OnMenu
         setContentView(R.layout.activity_women_item_list);
         Button btn = (Button) findViewById(R.id.btnShow2);
         Button btn2 =(Button) findViewById(R.id.button) ;
-        st = findViewById(R.id.imageView6);
+        st = findViewById(R.id.imageWishlistFilled);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,7 +43,7 @@ public class WomenItemList extends AppCompatActivity implements PopupMenu.OnMenu
         });
 
         st.setOnClickListener(view -> {
-            Intent send = new Intent(WomenItemList.this, Store.class);
+            Intent send = new Intent(WomenItemList.this, Wishlist.class);
             startActivity(send);
         });
 
@@ -56,26 +56,27 @@ public class WomenItemList extends AppCompatActivity implements PopupMenu.OnMenu
         Toast.makeText(this, "Selected Item: " + item.getTitle(), Toast.LENGTH_SHORT).show();
         switch (item.getItemId()) {
 
-            case R.id.search_item:
+            case R.id.search_item1:
 
-                Intent send = new Intent(WomenItemList.this, Profile.class);
+                Intent send = new Intent(WomenItemList.this, WomenItemList.class);
                 startActivity(send);
 
                 return true;
 
-            case R.id.upload_item:
+            case R.id.upload_item1:
 
-                Intent send1 = new Intent(WomenItemList.this, UpdateAddress.class);
+                Intent send1 = new Intent(WomenItemList.this, MenItemListActivity.class);
                 startActivity(send1);
 
 
                 return true;
             case R.id.copy_item:
-                Intent send2 = new Intent(WomenItemList.this, Feedback.class);
+                Intent send2 = new Intent(WomenItemList.this, ShoeItemListActivity.class);
                 startActivity(send2);
                 return true;
             case R.id.print_item:
-                // do your code
+                Intent send3 = new Intent(WomenItemList.this, HomeItemListActivity.class);
+                startActivity(send3);
                 return true;
 
             default:

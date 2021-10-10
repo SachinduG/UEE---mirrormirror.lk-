@@ -11,6 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mirror">
         <activity
+            android:name=".ItemViewShoesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ItemViewDressActivity"
+            android:exported="true" />
+        <activity
             android:name=".HomeItemListActivity"
             android:exported="true" />
         <activity

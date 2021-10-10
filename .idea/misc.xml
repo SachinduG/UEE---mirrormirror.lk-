@@ -78,7 +78,7 @@
         <entry key="..\:/UEE2/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_cart.xml" value="0.264" />
         <entry key="..\:/UEE2/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_feedback.xml" value="0.1375" />
         <entry key="..\:/UEE2/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_home_item_list.xml" value="0.1897644927536232" />
-        <entry key="..\:/UEE2/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_men_item_list.xml" value="0.1" />
+        <entry key="..\:/UEE2/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_men_item_list.xml" value="0.264" />
         <entry key="..\:/UEE2/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_payment_menu.xml" value="0.1897644927536232" />
         <entry key="..\:/UEE2/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_profile.xml" value="0.1375" />
         <entry key="..\:/UEE2/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_review.xml" value="0.1897644927536232" />
@@ -87,6 +87,9 @@
         <entry key="..\:/UEE2/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_update_address.xml" value="0.1897644927536232" />
         <entry key="..\:/UEE2/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_wishlist.xml" value="0.1375" />
         <entry key="..\:/UEE2/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_women_item_list.xml" value="0.192481884057971" />
+        <entry key="..\:/UEE2/UEE---mirrormirror.lk-/app/src/main/res/menu/catergory.xml" value="0.240625" />
+        <entry key="..\:/UEE2/UEE---mirrormirror.lk-/app/src/main/res/menu/menu_example.xml" value="0.240625" />
+        <entry key="..\:/UEE2/UEE---mirrormirror.lk-/app/src/main/res/menu/sort.xml" value="0.240625" />
         <entry key="..\:/studies/SLIIT/year 3/sem 2/UEE/project/mirro mirror/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_addresses.xml" value="0.2" />
         <entry key="..\:/studies/SLIIT/year 3/sem 2/UEE/project/mirro mirror/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_bank_transfer.xml" value="0.25416666666666665" />
         <entry key="..\:/studies/SLIIT/year 3/sem 2/UEE/project/mirro mirror/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_card_payment.xml" value="0.2" />

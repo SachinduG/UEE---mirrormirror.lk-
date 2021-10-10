@@ -45,14 +45,14 @@ public class ProfileOptions extends AppCompatActivity implements PopupMenu.OnMen
         Toast.makeText(this, "Selected Item: " +item.getTitle(), Toast.LENGTH_SHORT).show();
         switch (item.getItemId()) {
 
-            case R.id.search_item:
+            case R.id.search_item1:
 
                 Intent send = new Intent(ProfileOptions.this, Profile.class);
                 startActivity(send);
 
                 return true;
 
-            case R.id.upload_item:
+            case R.id.upload_item1:
 
                 Intent send1 = new Intent(ProfileOptions.this, UpdateAddress.class);
                 startActivity(send1);
