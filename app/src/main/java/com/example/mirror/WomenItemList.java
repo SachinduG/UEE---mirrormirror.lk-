@@ -12,7 +12,7 @@ import android.widget.PopupMenu;
 import android.widget.Toast;
 
 public class WomenItemList extends AppCompatActivity implements PopupMenu.OnMenuItemClickListener{
-    ImageView st;
+    ImageView st,ct,pt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +21,8 @@ public class WomenItemList extends AppCompatActivity implements PopupMenu.OnMenu
         Button btn = (Button) findViewById(R.id.btnShow2);
         Button btn2 =(Button) findViewById(R.id.button) ;
         st = findViewById(R.id.imageView6);
+        ct = findViewById(R.id.imageView8);
+        pt = findViewById(R.id.imageView16);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -47,7 +49,17 @@ public class WomenItemList extends AppCompatActivity implements PopupMenu.OnMenu
             startActivity(send);
         });
 
-}
+        ct.setOnClickListener(view -> {
+            Intent send = new Intent(WomenItemList.this, Cart.class);
+            startActivity(send);
+        });
+        pt.setOnClickListener(view -> {
+            Intent send = new Intent(WomenItemList.this, ProductViewActivity.class);
+            startActivity(send);
+        });
+
+
+    }
 
     @Override
     public boolean onMenuItemClick(MenuItem item) {
@@ -56,26 +68,27 @@ public class WomenItemList extends AppCompatActivity implements PopupMenu.OnMenu
         Toast.makeText(this, "Selected Item: " + item.getTitle(), Toast.LENGTH_SHORT).show();
         switch (item.getItemId()) {
 
-            case R.id.search_item:
+            case R.id.search_item1:
 
-                Intent send = new Intent(WomenItemList.this, Profile.class);
+                Intent send = new Intent(WomenItemList.this, WomenItemList.class);
                 startActivity(send);
 
                 return true;
 
-            case R.id.upload_item:
+            case R.id.upload_item1:
 
-                Intent send1 = new Intent(WomenItemList.this, UpdateAddress.class);
+                Intent send1 = new Intent(WomenItemList.this, MenItemListActivity.class);
                 startActivity(send1);
 
 
                 return true;
             case R.id.copy_item:
-                Intent send2 = new Intent(WomenItemList.this, Feedback.class);
+                Intent send2 = new Intent(WomenItemList.this, ShoeItemListActivity.class);
                 startActivity(send2);
                 return true;
             case R.id.print_item:
-                // do your code
+                Intent send3 = new Intent(WomenItemList.this, HomeItemListActivity.class);
+                startActivity(send3);
                 return true;
 
             default:

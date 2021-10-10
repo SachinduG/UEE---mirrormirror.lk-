@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/search_item1"
-        android:title="Edit My Profile" />
+        android:title="S" />
     <item android:id="@+id/upload_item1"
-        android:title="Update Shipping Address" />
+        android:title="M" />
     <item android:id="@+id/copy_item"
-        android:title="Feedback" />
+        android:title="L" />
     <item android:id="@+id/print_item"
-        android:title="LogOut" />
-
-
+        android:title="Xl" />
 </menu>
