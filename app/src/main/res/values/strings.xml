@@ -144,9 +144,14 @@
     <string name="pending">Pending</string>
     <string name="pendingcount">pendingcount</string>
     <string name="totalcount">totalcount</string>
+
+    <string name="my_cart">My Cart</string>
+    <string name="wish">wish</string>
+
     <string name="mm003_men_shirt_1_500">MM003 Men Shirt 1,500</string>
     <string name="mm02_men_shirt_1_500rs">MM02 Men Shirt 1,500rs</string>
     <string name="mm05_men_t_shirt_1_200rs">MM05 Men T-shirt 1,200rs</string>
     <string name="todo">TODO</string>
+
 
 </resources>

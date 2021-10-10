@@ -11,6 +11,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mirror">
         <activity
+
+            android:name=".Cart"
+            android:exported="true" />
+        <activity
+            android:name=".ProfileOptions"
+            android:exported="true" />
+        <activity
             android:name=".HomeItemListActivity"
             android:exported="true" />
         <activity
