@@ -56,7 +56,7 @@
         <entry key="..\:/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_bank_transfer.xml" value="0.20416666666666666" />
         <entry key="..\:/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_card_form.xml" value="0.20416666666666666" />
         <entry key="..\:/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_card_payment.xml" value="0.20416666666666666" />
-        <entry key="..\:/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_feedback.xml" value="0.2" />
+        <entry key="..\:/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_feedback.xml" value="0.16" />
         <entry key="..\:/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_forgot_password.xml" value="0.20416666666666666" />
         <entry key="..\:/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
         <entry key="..\:/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_main.xml" value="0.21" />
@@ -68,9 +68,12 @@
         <entry key="..\:/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_store.xml" value="0.20416666666666666" />
         <entry key="..\:/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_update_address.xml" value="0.20416666666666666" />
         <entry key="..\:/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_welcome.xml" value="0.19010416666666666" />
-        <entry key="..\:/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_wishlist.xml" value="0.2" />
+        <entry key="..\:/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_wishlist.xml" value="0.16" />
         <entry key="..\:/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_women_item_list.xml" value="0.20416666666666666" />
         <entry key="..\:/UEE---mirrormirror.lk-/app/src/main/res/layout/content_feedback.xml" value="0.19010416666666666" />
+
+        <entry key="..\:/studies/SLIIT/year 3/sem 2/UEE/project/mirro mirror/UEE---mirrormirror.lk-/app/src/main/res/drawable/container.xml" value="0.26614583333333336" />
+
         <entry key="..\:/UEE2/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_addresses.xml" value="0.1375" />
         <entry key="..\:/UEE2/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_bank_transfer.xml" value="0.1897644927536232" />
         <entry key="..\:/UEE2/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_card_form.xml" value="0.1897644927536232" />
@@ -87,12 +90,21 @@
         <entry key="..\:/UEE2/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_update_address.xml" value="0.1897644927536232" />
         <entry key="..\:/UEE2/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_wishlist.xml" value="0.1375" />
         <entry key="..\:/UEE2/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_women_item_list.xml" value="0.192481884057971" />
+<<<<<<< HEAD
         <entry key="..\:/UEE2/UEE---mirrormirror.lk-/app/src/main/res/menu/catergory.xml" value="0.240625" />
         <entry key="..\:/UEE2/UEE---mirrormirror.lk-/app/src/main/res/menu/menu_example.xml" value="0.240625" />
         <entry key="..\:/UEE2/UEE---mirrormirror.lk-/app/src/main/res/menu/sort.xml" value="0.240625" />
+=======
+
+>>>>>>> 5755884f9e7e6cf4a5c3d0f168a0a4539bc13da9
         <entry key="..\:/studies/SLIIT/year 3/sem 2/UEE/project/mirro mirror/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_addresses.xml" value="0.2" />
         <entry key="..\:/studies/SLIIT/year 3/sem 2/UEE/project/mirro mirror/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_bank_transfer.xml" value="0.25416666666666665" />
         <entry key="..\:/studies/SLIIT/year 3/sem 2/UEE/project/mirro mirror/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_card_payment.xml" value="0.2" />
+
+        <entry key="..\:/studies/SLIIT/year 3/sem 2/UEE/project/mirro mirror/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_cart.xml" value="0.25" />
+        <entry key="..\:/studies/SLIIT/year 3/sem 2/UEE/project/mirro mirror/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_feedback.xml" value="0.25" />
+
+
         <entry key="..\:/studies/SLIIT/year 3/sem 2/UEE/project/mirro mirror/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_forgot_password.xml" value="0.25" />
         <entry key="..\:/studies/SLIIT/year 3/sem 2/UEE/project/mirro mirror/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/studies/SLIIT/year 3/sem 2/UEE/project/mirro mirror/UEE---mirrormirror.lk-/app/src/main/res/layout/activity_main.xml" value="0.264" />

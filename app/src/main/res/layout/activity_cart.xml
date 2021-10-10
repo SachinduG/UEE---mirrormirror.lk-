@@ -18,10 +18,13 @@
         app:cardMaxElevation="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="0.16">
+
+       
 
         <ImageView
             android:id="@+id/imageView2"
@@ -82,14 +85,17 @@
 
         <TextView
             android:id="@+id/textView22"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="130dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:layout_marginStart="140dp"
             android:layout_marginTop="86dp"
             android:text="@string/my_cart"
             android:textColor="#FFFFFF"
+            android:layout_width="150dp"
             android:textSize="34sp"
             android:textStyle="bold" />
+
 
         <ImageView
             android:id="@+id/imageWishlistFilled"
@@ -97,7 +103,24 @@
             android:layout_height="36dp"
             android:layout_marginStart="280dp"
             android:layout_marginTop="32dp"
-            android:src="@drawable/ic_wishlist_filled" />
+
+            android:src="@drawable/ic_wishlist_filled"
+            android:contentDescription="@string/wish" />
+
     </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="351dp"
+        android:layout_height="135dp"
+        android:background="@drawable/container"
+        app:cardCornerRadius="30dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.381" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
