@@ -8,8 +8,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/form"
-        android:layout_width="411dp"
-        android:layout_height="480dp"
+        android:layout_width="405dp"
+        android:layout_height="470dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.272"
@@ -157,8 +157,8 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView2"
-        android:layout_width="410dp"
-        android:layout_height="230dp"
+        android:layout_width="411dp"
+        android:layout_height="207dp"
         android:layout_marginTop="1dp"
         android:layout_marginBottom="630dp"
         app:cardBackgroundColor="#EF5F5F"
@@ -222,8 +222,8 @@
 
         <ImageView
             android:id="@+id/imageView20"
-            android:layout_width="142dp"
-            android:layout_height="108dp"
+            android:layout_width="140dp"
+            android:layout_height="85dp"
             android:layout_marginStart="130dp"
             android:layout_marginTop="120dp"
             android:contentDescription="@string/profilelogo"

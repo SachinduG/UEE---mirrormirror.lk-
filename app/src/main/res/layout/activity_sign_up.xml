@@ -26,10 +26,9 @@
         android:layout_height="479dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.602">
+        app:layout_constraintVertical_bias="0.654">
 
         <EditText
             android:id="@+id/etEmail"
@@ -149,14 +148,15 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="409dp"
-        android:layout_height="133dp"
+        android:layout_width="420dp"
+        android:layout_height="124dp"
         android:background="#EC5959"
         app:cardBackgroundColor="#EC4B4B"
-        app:cardCornerRadius="10dp"
+        app:cardCornerRadius="20dp"
         app:cardPreventCornerOverlap="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
