@@ -10,15 +10,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Mirror">
-        <activity
 
+        <activity
             android:name=".ItemViewShoesActivity"
             android:exported="true" />
         <activity
             android:name=".ItemViewDressActivity"
+
             android:exported="true" />
         <activity
             android:name=".Cart"
+
             android:exported="true" />
         <activity
             android:name=".ProfileOptions"
@@ -33,17 +35,23 @@
             android:name=".MenItemListActivity"
             android:exported="true" />
 
+
         <activity
             android:name=".Feedback"
-            android:exported="true" />
+            android:exported="true">
+
+        </activity>
         <activity
             android:name=".Welcome"
             android:exported="true" />
         <activity
             android:name=".Wishlist"
+
             android:exported="true" >
 
         </activity>
+
+
 
         <activity
             android:name=".CardForm"
@@ -90,17 +98,18 @@
             android:parentActivityName=".Review" />
         <activity
             android:name=".Addresses"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".Cart">
+
+        </activity>
         <activity
             android:name=".Login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-    </application>
 
+    </application>
 </manifest>
