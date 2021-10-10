@@ -10,17 +10,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Mirror">
-
+        <activity
+            android:name=".ProductViewActivity"
+            android:exported="true" />
         <activity
             android:name=".ItemViewShoesActivity"
             android:exported="true" />
         <activity
             android:name=".ItemViewDressActivity"
-
             android:exported="true" />
         <activity
             android:name=".Cart"
-
             android:exported="true" />
         <activity
             android:name=".ProfileOptions"
@@ -34,13 +34,9 @@
         <activity
             android:name=".MenItemListActivity"
             android:exported="true" />
-
-
         <activity
             android:name=".Feedback"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".Welcome"
             android:exported="true" >
@@ -52,13 +48,7 @@
 
     <activity
             android:name=".Wishlist"
-
-            android:exported="true" >
-
-        </activity>
-
-
-
+            android:exported="true"></activity>
         <activity
             android:name=".CardForm"
             android:exported="true"
@@ -105,14 +95,12 @@
         <activity
             android:name=".Addresses"
             android:exported="true"
-            android:parentActivityName=".Cart">
-
-        </activity>
+            android:parentActivityName=".Cart"></activity>
         <activity
             android:name=".Login"
             android:exported="true">
 
         </activity>
-
     </application>
+
 </manifest>

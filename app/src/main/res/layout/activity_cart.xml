@@ -210,8 +210,8 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView2"
-        android:layout_width="410dp"
-        android:layout_height="150dp"
+        android:layout_width="407dp"
+        android:layout_height="149dp"
         android:layout_marginTop="1dp"
         android:layout_marginBottom="630dp"
         app:cardBackgroundColor="#EF5F5F"
@@ -224,9 +224,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.16">
+        app:layout_constraintVertical_bias="0.121">
 
-       
 
         <ImageView
             android:id="@+id/imageView2"
@@ -304,8 +303,8 @@
             android:layout_marginStart="280dp"
             android:layout_marginTop="32dp"
 
-            android:src="@drawable/ic_wishlist_filled"
-            android:contentDescription="@string/wish" />
+            android:contentDescription="@string/wish"
+            android:src="@drawable/ic_wishlist_filled" />
 
     </androidx.cardview.widget.CardView>
 
