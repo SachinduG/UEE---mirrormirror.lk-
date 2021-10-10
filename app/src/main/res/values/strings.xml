@@ -121,19 +121,17 @@
     <string name="q1_answer">&#0160;Yes, We deliver Island wide with our corporate trusted courier services. So, no worries we always take care of your every order, We pack it safely will arrive to your home safely.</string>
     <string name="feedback_question2">&#0160;Which products can be returned?</string>
     <string name="feedback_question3">&#0160;Do you offer any discounts?</string>
-<<<<<<< HEAD
+
     <string name="my_cart">My Cart</string>
     <string name="ww03_women_bag_1_800rs">ww03 Women Bag 1,800Rs</string>
     <string name="ww04_women_top_1_800rs">ww04 Women Top 1,800Rs</string>
     <string name="ww02_women_top_1_200rs">ww02 Women Top 1,200Rs</string>
     <string name="sort">Sort</string>
     <string name="catergory">Catergory</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
+
     <string name="mm001_men_shirt_1_200rs">MM001 Men Shirt 1,200Rs</string>
-    <string name="todo">TODO</string>
-=======
+
+
     <string name="wishlist_cardview_title1">&#032;&#032;WW088-Sports Shoes \n&#032;&#032;Quantity 1</string>
     <string name="wishlist_cardview_price1">&#032;&#032;Rs 1,500.00</string>
     <string name="wishlist_cardview_title2">&#032;&#032;WW065-Women Bag \n&#032;&#032;Quantity 1</string>
@@ -146,5 +144,9 @@
     <string name="pending">Pending</string>
     <string name="pendingcount">pendingcount</string>
     <string name="totalcount">totalcount</string>
->>>>>>> 25fc54dec1c50a713490b8cffc1486cece50505e
+    <string name="mm003_men_shirt_1_500">MM003 Men Shirt 1,500</string>
+    <string name="mm02_men_shirt_1_500rs">MM02 Men Shirt 1,500rs</string>
+    <string name="mm05_men_t_shirt_1_200rs">MM05 Men T-shirt 1,200rs</string>
+    <string name="todo">TODO</string>
+
 </resources>

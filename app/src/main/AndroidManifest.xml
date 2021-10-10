@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mirror">
         <activity
-<<<<<<< HEAD
+
             android:name=".ShoeItemListActivity"
             android:exported="true" />
         <activity
@@ -19,10 +19,8 @@
             android:exported="true" />
         <activity
             android:name=".Cart"
-=======
-            android:name=".ProfileOptions"
->>>>>>> 25fc54dec1c50a713490b8cffc1486cece50505e
-            android:exported="true" />
+
+            />
         <activity
             android:name=".Feedback"
             android:exported="true" />
